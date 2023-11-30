@@ -1,0 +1,1 @@
+<?php /**PATH C:\xampp\htdocs\TUBES IDAP & WEBPRO\readink\resources\views/Pembaca/setting.blade.php ENDPATH**/ ?>
