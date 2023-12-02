@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\authorController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -142,6 +143,12 @@ Route::middleware([
     Route::get('/history-author', function () {
         return view('Author.History');
     })->name('History');
+    // Route::get('/tulis-author', function () {
+    //     return view('Author.Tulis');
+    // })->name('Tulis');
+    Route::get('/tulis-author', [authorController::class, 'index'])->name('tulis');
+    Route::get('/addcerita-author', [authorController::class, 'new'])->name('addcerita');
+    Route::post('/novel', [authorController::class, 'store'])->name('tambahcerita');
 });
 
 // Route Pembaca
