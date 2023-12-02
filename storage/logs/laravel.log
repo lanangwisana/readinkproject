@@ -2716,3 +2716,31 @@
 [stacktrace]
 #0 {main}
 "} 
+[2023-12-02 07:06:18] local.ERROR: syntax error, unexpected token "}", expecting "," or ";" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting \",\" or \";\" at C:\\xampp\\htdocs\\TUBES WEBPROO\\readinkproject\\app\\Models\\pembaca.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2023-12-02 07:06:23] local.ERROR: syntax error, unexpected token "}", expecting "," or ";" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting \",\" or \";\" at C:\\xampp\\htdocs\\TUBES WEBPROO\\readinkproject\\app\\Models\\pembaca.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2023-12-02 07:06:41] local.ERROR: syntax error, unexpected token "}", expecting variable {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting variable at C:\\xampp\\htdocs\\TUBES WEBPROO\\readinkproject\\app\\Models\\pembaca.php:15)
+[stacktrace]
+#0 {main}
+"} 
+[2023-12-02 07:06:48] local.ERROR: syntax error, unexpected identifier "prote", expecting "function" or "const" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected identifier \"prote\", expecting \"function\" or \"const\" at C:\\xampp\\htdocs\\TUBES WEBPROO\\readinkproject\\app\\Models\\pembaca.php:14)
+[stacktrace]
+#0 {main}
+"} 
+[2023-12-02 07:06:57] local.ERROR: syntax error, unexpected token "}", expecting "," or ";" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting \",\" or \";\" at C:\\xampp\\htdocs\\TUBES WEBPROO\\readinkproject\\app\\Models\\pembaca.php:18)
+[stacktrace]
+#0 {main}
+"} 
+[2023-12-02 07:07:17] local.ERROR: syntax error, unexpected single-quoted string "password", expecting "]" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected single-quoted string \"password\", expecting \"]\" at C:\\xampp\\htdocs\\TUBES WEBPROO\\readinkproject\\app\\Models\\pembaca.php:18)
+[stacktrace]
+#0 {main}
+"} 
+[2023-12-02 07:07:27] local.ERROR: syntax error, unexpected token "}", expecting "," or ";" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting \",\" or \";\" at C:\\xampp\\htdocs\\TUBES WEBPROO\\readinkproject\\app\\Models\\pembaca.php:20)
+[stacktrace]
+#0 {main}
+"} 
