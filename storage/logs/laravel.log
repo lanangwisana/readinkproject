@@ -2684,3 +2684,35 @@
 #51 C:\\xampp\\htdocs\\TUBES WEBPROO\\readinkproject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\xampp\\\\htdocs...')
 #52 {main}
 "} 
+[2023-12-02 06:57:39] local.ERROR: syntax error, unexpected token "}", expecting variable {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting variable at C:\\xampp\\htdocs\\TUBES WEBPROO\\readinkproject\\app\\Models\\Author.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2023-12-02 06:57:46] local.ERROR: syntax error, unexpected token "}", expecting "," or ";" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting \",\" or \";\" at C:\\xampp\\htdocs\\TUBES WEBPROO\\readinkproject\\app\\Models\\Author.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2023-12-02 06:58:29] local.ERROR: syntax error, unexpected token "}", expecting "," or ";" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting \",\" or \";\" at C:\\xampp\\htdocs\\TUBES WEBPROO\\readinkproject\\app\\Models\\Author.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2023-12-02 06:59:44] local.ERROR: syntax error, unexpected token "}", expecting variable {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting variable at C:\\xampp\\htdocs\\TUBES WEBPROO\\readinkproject\\app\\Models\\Author.php:15)
+[stacktrace]
+#0 {main}
+"} 
+[2023-12-02 06:59:53] local.ERROR: syntax error, unexpected token "}" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\" at C:\\xampp\\htdocs\\TUBES WEBPROO\\readinkproject\\app\\Models\\Author.php:15)
+[stacktrace]
+#0 {main}
+"} 
+[2023-12-02 07:00:01] local.ERROR: syntax error, unexpected token "}", expecting "," or ";" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting \",\" or \";\" at C:\\xampp\\htdocs\\TUBES WEBPROO\\readinkproject\\app\\Models\\Author.php:18)
+[stacktrace]
+#0 {main}
+"} 
+[2023-12-02 07:00:17] local.ERROR: syntax error, unexpected token "}", expecting "," or ";" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting \",\" or \";\" at C:\\xampp\\htdocs\\TUBES WEBPROO\\readinkproject\\app\\Models\\Author.php:19)
+[stacktrace]
+#0 {main}
+"} 
+[2023-12-02 07:00:28] local.ERROR: syntax error, unexpected token "}", expecting "," or ";" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting \",\" or \";\" at C:\\xampp\\htdocs\\TUBES WEBPROO\\readinkproject\\app\\Models\\Author.php:20)
+[stacktrace]
+#0 {main}
+"} 
