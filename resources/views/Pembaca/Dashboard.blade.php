@@ -248,7 +248,7 @@
                             <!-- Item 1 -->
                             <div class="hidden duration-700 bg-sky-100" data-carousel-item>
                                 <div class="flex flex-row items-center justify-center h-48 mb-4 mt-24 gap-x-4 bg-sky-100">
-                                <a href="halamanbaca-author" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow mt-2 mb-2 w-full md:flex-row md:max-w-xl hover:bg-gray-100">
+                                <a href="halamanbaca-pembaca" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow mt-2 mb-2 w-full md:flex-row md:max-w-xl hover:bg-gray-100">
                                     <img class="object-cover w-full rounded-t-lg h-96 p-3 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="{{ asset('img/download (2).jpeg') }}" alt="">
                                     <div class="flex flex-col justify-between p-4 leading-normal">
                                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Harry Potter and the Sourcerers Stone</h5>
@@ -275,7 +275,7 @@
                                         <p class="mt-3 text-bold underline text-right">Read more</p>
                                     </div>
                                 </a>
-                                <a href="halamanbaca-author" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow mt-2 mb-2 w-full md:flex-row md:max-w-xl hover:bg-gray-100">
+                                <a href="halamanbaca-pembaca" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow mt-2 mb-2 w-full md:flex-row md:max-w-xl hover:bg-gray-100">
                                     <img class="object-cover w-full rounded-t-lg h-96 p-3 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="{{ asset('img/Book cover - ABRA CADABRA by MirellaSantana on DeviantArt.jpeg') }}" alt="">
                                     <div class="flex flex-col justify-between p-4 leading-normal">
                                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Harry Potter and the Sourcerers Stone</h5>

@@ -75,6 +75,7 @@ Route::get('/', function () {
 // Route author end
 
 
+
 // Route pembaca start
 // Route::get('/dashboard-pembaca', function () {
 //     return view('Pembaca.Dashboard');
@@ -113,14 +114,64 @@ Route::get('/', function () {
 // });
 // Route pembaca end
 
-//Route Crud
+//Route Author
 
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
     'verified',
 ])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard');
+    Route::get('/dashboard-author', function () {
+        return view('Author.Dashboard');
     })->name('dashboard');
+    Route::get('/halamanbaca-author', function () {
+        return view('Author.halamanBaca');
+    })->name('halamanBaca');
+    Route::get('/halamanbaca2-author', function () {
+        return view('Author.halamanBaca2');
+    })->name('halamanBaca2');
+    Route::get('/mulaibaca-author', function () {
+        return view('Author.mulaiBaca');
+    })->name('mulaiBaca');
+    Route::get('/bookmark-author', function () {
+        return view('Author.Bookmark');
+    })->name('Bookmark');
+    Route::get('/favorit-author', function () {
+        return view('Author.Favorit');
+    })->name('Favorit');
+    Route::get('/history-author', function () {
+        return view('Author.History');
+    })->name('History');
+});
+
+// Route Pembaca
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified',
+])->group(function () {
+    Route::get('/dashboard-pembaca', function () {
+        return view('Pembaca.Dashboard');
+    })->name('dashboard');
+    Route::get('/mulaibaca-pembaca', function () {
+        return view('Pembaca.mulaiBaca');
+    })->name('mulaiBaca');
+    Route::get('/halamanbaca-pembaca', function () {
+        return view('Pembaca.halamanBaca');
+    })->name('halamanBaca');
+    Route::get('/halamanbaca2-pembaca', function () {
+        return view('Pembaca.halamanBaca2');
+    })->name('halamanBaca2');
+    Route::get('/mulaibaca-pembaca', function () {
+        return view('Pembaca.mulaiBaca');
+    })->name('mulaiBaca');
+    Route::get('/bookmark-pembaca', function () {
+        return view('Pembaca.Bookmark');
+    })->name('Bookmark');
+    Route::get('/favorit-pembaca', function () {
+        return view('Pembaca.Favorit');
+    })->name('Favorit');
+    Route::get('/histori-pembaca', function () {
+        return view('Pembaca.Histori');
+    })->name('Histori');
 });
