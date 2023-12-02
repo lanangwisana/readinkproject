@@ -182,3 +182,5 @@ Route::middleware([
         return view('Pembaca.Histori');
     })->name('Histori');
 });
+
+//coba commmit 1
