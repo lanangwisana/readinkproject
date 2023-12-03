@@ -8073,3 +8073,23 @@
 #63 C:\\xampp\\htdocs\\TUBES WEBPROO\\readinkproject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\xampp\\\\htdocs...')
 #64 {main}
 "} 
+[2023-12-03 04:30:33] local.ERROR: syntax error, unexpected token "}", expecting "," or ";" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting \",\" or \";\" at C:\\xampp\\htdocs\\TUBES WEBPROO\\readinkproject\\app\\Models\\isinovel.php:14)
+[stacktrace]
+#0 {main}
+"} 
+[2023-12-03 04:30:56] local.ERROR: syntax error, unexpected token "}" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\" at C:\\xampp\\htdocs\\TUBES WEBPROO\\readinkproject\\app\\Models\\isinovel.php:15)
+[stacktrace]
+#0 {main}
+"} 
+[2023-12-03 04:31:02] local.ERROR: syntax error, unexpected token "}", expecting "," or ";" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting \",\" or \";\" at C:\\xampp\\htdocs\\TUBES WEBPROO\\readinkproject\\app\\Models\\isinovel.php:15)
+[stacktrace]
+#0 {main}
+"} 
+[2023-12-03 04:32:38] local.ERROR: syntax error, unexpected token "}", expecting "," or ";" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting \",\" or \";\" at C:\\xampp\\htdocs\\TUBES WEBPROO\\readinkproject\\app\\Models\\isinovel.php:19)
+[stacktrace]
+#0 {main}
+"} 
+[2023-12-03 04:32:59] local.ERROR: syntax error, unexpected token "}", expecting "," or ";" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting \",\" or \";\" at C:\\xampp\\htdocs\\TUBES WEBPROO\\readinkproject\\app\\Models\\isinovel.php:20)
+[stacktrace]
+#0 {main}
+"} 
