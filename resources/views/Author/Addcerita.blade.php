@@ -271,7 +271,7 @@
                     </a>
                     <div class=" absolute top-[0px] left-[300px] w-[900px] p-5 border border-lg bg-white rounded shadow">
                         <p class="font-bold text-lg ">Detail Cerita</p>
-                        <form action="/novel" method="POST">
+                        <form action="/author" method="POST">
                             @csrf
                             <div class="mb-6 mt-7">
                                 <label for="default-input" class="block mb-2 text-sm font-medium text-gray-900">Judul</label>
@@ -371,7 +371,7 @@
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
                                     </svg>
                                 </button>
-                                <div id="mega-menu-dropdown" class="absolute z-10 grid w-auto grid-cols-2 text-sm bg-white border border-gray-100 rounded-lg shadow-md md:grid-cols-3">
+                                <div id="mega-menu-dropdown" class="absolute z-10 hidden grid w-auto grid-cols-2 text-sm bg-white border border-gray-100 rounded-lg shadow-md md:grid-cols-3">
                                     <div class="p-4 pb-0 text-gray-900 md:pb-4">
                                             <ul class="space-y-4" aria-labelledby="mega-menu-dropdown-button">
                                                 <li>

@@ -6,11 +6,12 @@ use App\Models\novel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
 
+@dd($cerita);
 class authorController extends Controller
 {
     public function index()
     {
-        $cerita = novel::orderby('id');
+        $cerita = novel::orderby('id')->get();
         return view('Author.Tulis', ['cerita' => $cerita]);
     }
     public function new()
@@ -19,8 +20,8 @@ class authorController extends Controller
     }
     public function store(Request $request)
     {
-        $novel = novel::create($request->all());
-        if ($novel) {
+        $cerita = novel::create($request->all());
+        if ($cerita) {
             Session::flash('status', 'succes');
             Session::flash('message', 'penambahan data berhasil');
         }

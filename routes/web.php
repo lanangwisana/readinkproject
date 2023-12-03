@@ -148,7 +148,7 @@ Route::middleware([
     // })->name('Tulis');
     Route::get('/tulis-author', [authorController::class, 'index'])->name('tulis');
     Route::get('/addcerita-author', [authorController::class, 'new'])->name('addcerita');
-    Route::post('/novel', [authorController::class, 'store'])->name('tambahcerita');
+    Route::post('/author', [authorController::class, 'store'])->name('tambahcerita');
 });
 
 // Route Pembaca
