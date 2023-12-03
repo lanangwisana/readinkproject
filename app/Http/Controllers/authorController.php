@@ -6,7 +6,7 @@ use App\Models\novel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
 
-@dd($cerita);
+// @dd($cerita);
 class authorController extends Controller
 {
     public function index()

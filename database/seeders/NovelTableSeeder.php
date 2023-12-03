@@ -2,10 +2,10 @@
 
 namespace Database\Seeders;
 
+use App\Models\novel;
 use Carbon\Carbon;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\DB;
 
 class NovelTableSeeder extends Seeder
 {
@@ -14,7 +14,7 @@ class NovelTableSeeder extends Seeder
      */
     public function run(): void
     {
-        $data = [
+        $cerita = [
             [
                 'judul' => 'Malin kundang',
                 'Sinopsis' => 'Malin kudang adalah seorang anak yang durhaka kepada ibunya',
@@ -26,7 +26,7 @@ class NovelTableSeeder extends Seeder
                 'updated_at' => Carbon::now()
             ]
         ];
-        DB::table('novel')->truncate();
-        DB::table('novel')->insert($data);
+        novel::truncate();
+        novel::insert($cerita);
     }
 }
